@@ -1,0 +1,62 @@
+h3 {
+  padding: 0;
+  margin: 8px 8px 0px 8px;
+}
+
+#smaller {
+  color: rgb(217, 217, 217);
+  font-size: 1.3vw;
+}
+
+.bigger {
+  color: rgb(82, 138, 138);
+  font-size: 2.7vw;
+  font-weight: 700;
+}
+
+.login-body {
+  width: 55%;
+  height: 63%;
+  background-color: #282828;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  box-shadow: 2px 2px 2px 3px #282828;
+}
+
+.item-left {
+  background-color: rgb(29, 29, 27);
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.imageLogin {
+  height: 615px;
+  width: 765px;
+}
+
+.landing-text {
+  width: 100%;
+  flex: 0 1 auto;
+  background-color: #1d1d1b;
+}
+
+.form-user-input {
+  width: 100%;
+  flex: 1 1 auto;
+  background-color: #1d1d1b;
+}
+
+.small-navigation-bar a {
+  color: rgb(82, 138, 138);
+  margin: 8px 8px 0px 8px;
+}
+
+.small-navigation-bar .line {
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  width: 70%;
+}

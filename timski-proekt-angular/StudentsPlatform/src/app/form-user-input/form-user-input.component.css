@@ -1,0 +1,25 @@
+.form-item{
+    border-radius: 13px;
+    margin: 8px 8px 0 8px;
+    height: calc(1.2em + .75rem + 1.5px);
+    display: block;
+    width: 100%;
+}
+
+.form-control{
+    background-color: #d9d9d9;
+}
+
+.btn-bg-color{
+    background-color: rgb(82,138,138);
+    color: black;
+    font-weight: bold;
+}
+
+.btn-primary{
+    width:100%;
+}
+
+.form-gr{
+    width: 70%;
+}

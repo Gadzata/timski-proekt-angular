@@ -1,0 +1,27 @@
+<div class="login-body">
+  <div class="item-left">
+    <div class="landing-text">
+      <h3 id="smaller">
+        {{ "welcome to" | uppercase }}
+      </h3>
+      <h3 class="bigger">
+        {{ "the students" | uppercase }}
+      </h3>
+      <h3 class="bigger">
+        {{ "platform" | uppercase }}
+      </h3>
+    </div>
+    <div class="small-navigation-bar">
+      <a routerLink="/login">Login</a> <a routerLink="/register">Register</a>
+      <hr class="line" />
+    </div>
+    <div class="form-user-input">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div class="item-right">
+    <div>
+      <img class="imageLogin" src="../../assets/images/LoginImage.jpg" />
+    </div>
+  </div>
+</div>

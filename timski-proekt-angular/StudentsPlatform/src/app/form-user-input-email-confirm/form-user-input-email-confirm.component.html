@@ -1,0 +1,19 @@
+<form class="form-gr">
+  <input
+    class="form-control form-item"
+    type="text"
+    [(ngModel)]="emailCode"
+    placeholder="Enter Code"
+    name="Code"
+  />
+  <button
+    type="submit"
+    (click)="onClick()"
+    class="btn btn-primary form-item btn-bg-color"
+  >
+    Register
+  </button>
+  <p class="form-control form-item" *ngIf="error" class="errorCode">
+    This code doesnt match
+  </p>
+</form>

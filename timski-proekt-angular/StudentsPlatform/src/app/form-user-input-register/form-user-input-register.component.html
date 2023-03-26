@@ -1,0 +1,29 @@
+<form class="form-gr">
+  <input
+    class="form-control form-item"
+    type="email"
+    [(ngModel)]="email"
+    name="email"
+    placeholder="Email"
+  />
+  <input
+    class="form-control form-item"
+    type="password"
+    placeholder="Password"
+  />
+  <input
+    class="form-control form-item"
+    type="password"
+    placeholder="Repeat Password"
+  />
+  <button
+    type="submit"
+    (click)="onClick()"
+    class="btn btn-primary form-item btn-bg-color"
+  >
+    Register
+  </button>
+  <p class="form-control form-item" *ngIf="error" class="errorCode">
+    This code doesnt match
+  </p>
+</form>
